@@ -149,7 +149,7 @@ app.post('/uploadFromExcel', (req, res) => {
 
             const fs = require('fs');
             await fs.unlinkSync('./uploads/' + fileExcel.name);
-
+            
             res.send({ message: 'success' });
         })
 
