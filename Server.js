@@ -16,4 +16,4 @@ app.use('/product', productController);
 
 app.listen(3001);
 
-//จบวันที่19 สไลด์ที่ 550
+//เกือบจบวันที่21 สไลด์ที่ 586
